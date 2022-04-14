@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE: ghcr.io/${{ github.repository }}-logpl0x:latest
+  IMAGE: ghcr.io/${{ github.repository }}-user:latest
 
 jobs:
   publish:
